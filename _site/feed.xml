@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knut Jackowski</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://knutjackowski.de/</link>
+    <atom:link href="http://knutjackowski.de/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 10 Jun 2016 17:57:38 +0200</pubDate>
+    <lastBuildDate>Fri, 10 Jun 2016 17:57:38 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Posts to read</title>
+        <description>&lt;h2 id=&quot;personal-websites&quot;&gt;Personal websites&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen&lt;/li&gt;
+  &lt;li&gt;https://www.themuse.com/advice/your-stepbystep-guide-to-building-your-personal-website-in-a-week&lt;/li&gt;
+  &lt;li&gt;https://en.wikipedia.org/wiki/Personal_web_page&lt;/li&gt;
+  &lt;li&gt;http://collegeinfogeek.com/personal-website/&lt;/li&gt;
+  &lt;li&gt;http://www.jimdo.com/personal-website/&lt;/li&gt;
+  &lt;li&gt;http://www.vandelaydesign.com/personal-websites/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http://christianspecht.de/2014/06/18/building-a-pseudo-dynamic-tree-menu-with-jekyll/&lt;/li&gt;
+  &lt;li&gt;http://codana.me/2014/06/16/excluding-pages-from-top-navigation-in-jekyll/&lt;/li&gt;
+  &lt;li&gt;https://projectricochet.com/blog/working-jekyll&lt;/li&gt;
+  &lt;li&gt;http://stackoverflow.com/questions/9053066/sorted-navigation-menu-with-jekyll-and-liquid&lt;/li&gt;
+  &lt;li&gt;http://www.nickbumbarger.com/2015/05/30/welcome_hacking_jekyll_config.html&lt;/li&gt;
+  &lt;li&gt;http://www.madhur.co.in/blog/2013/11/05/makingmostdatadirectory.html&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 05 Jun 2016 21:00:18 +0200</pubDate>
+        <link>http://knutjackowski.de/2016/06/05/texts-to-read.html</link>
+        <guid isPermaLink="true">http://knutjackowski.de/2016/06/05/texts-to-read.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Eine persönliche Webseite mit Jekyll bauen. Teil I</title>
+        <description>&lt;p&gt;Nachdem ich an dieser Stelle eine Weile das Ergebnis einer Aufgabe aus dem Curriculum von &lt;a href=&quot;&quot;&gt;FreeCodeCamp&lt;/a&gt; online hatte, habe ich nach einigen Überlegungen in den letzten Tagen eine Entscheidung getroffen, was ich auf längere Sicht unter dieser URL präsentieren möchte:&lt;/p&gt;
+
+&lt;p&gt;Diese Webseite soll ganz allgemein der Ort sein, wo man Informationen von mir oder über mich findet, also Blog, Portfolio, Resumé und Kontaktmöglichkeit in einem.&lt;/p&gt;
+
+&lt;p&gt;Sie soll nicht unbedingt fancy und extravagant sein, sondern funktional und schlicht; ein wenig Retrooptik kann nicht schaden, so lange sie technisch auf der Höhe der Zeit ist.&lt;/p&gt;
+
+&lt;p&gt;Als “Backend” habe ich mich relativ schnell für &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; entschieden, einen Generator für statische Webseiten, der in Ruby geschrieben ist, mit einem netten &lt;a href=&quot;https://github.com/Shopify/liquid/wiki&quot;&gt;Template-System&lt;/a&gt; arbeitet und sehr weit verbreitet ist, so dass es nicht schwer ist, Antworten auf mögliche Fragen zu bekommen. Außerdem kann man die Inhalte mit &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; formatieren, was mir generell sympatisch ist. Ein wenig Erfahrung mit Jekyll habe ich dadurch, dass ich auf &lt;a href=&quot;http://doxanthropos.github.io/&quot;&gt;Github ein Blog&lt;/a&gt; mit &lt;a href=&quot;http://octopress.org/&quot;&gt;Octopress&lt;/a&gt; betreibe, einem relativ stark vonkonfiguriertem Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Da ich schlichte Designs mag, gefällt mir das Standardaussehen eines mit &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; erzeugten Blogs schon ganz gut. Ein paar einfache Änderungen waren: als Startseite eine Einzelseite und die Artikelliste als eigene Seite im Menu, das CSS ein wenig anpassen an meine Vorliebe für hellen Text auf dunklem Hintergrund und das Übersetzen der wenigen englischen Wörter, die Teil des Layouts sind (z.B. “subscribe” zu “Abonnieren” und so).&lt;/p&gt;
+
+&lt;p&gt;Spannender war dann die Frage, wie man die Datumsangaben verändert. Amerikanische Datumsschreibweise auf einer deutschsprachigen Webseite, das sieht irgendwie falsch aus. Zum Glück gibt es da einen super Blogpost von Alan W. Smith, der alles was man zu Datumsangaben und Jekyll wissen möchte gut und mit Beispielen beschreibt: &lt;a href=&quot;http://alanwsmith.com/jekyll-liquid-date-formatting-examples&quot;&gt;Jekyll Date Formatting Examples&lt;/a&gt;. Im Sinne der Einfachheit habe ich mich für ein einfaches Jahr-Monat-Tag-Schema entschieden:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;date: &quot;%Y-%m-%d&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Im Footer habe ich mit Hilfe des &lt;a href=&quot;https://gist.github.com/nbumbarger/8a909f5d8e2d2526ade7&quot;&gt;Icons von Nick Bumbarger&lt;/a&gt; LinkedIn hinzugefügt.&lt;/p&gt;
+
+&lt;div class=&quot;small-image-right&quot;&gt;
+&lt;img alt=&quot;Portrait&quot; src=&quot;/images/pensiveintheforest.jpg&quot; class=&quot;profile-image&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Auf der Startseite sollte dann noch, wie es bei solchen persönlichen Webseiten üblich ist, ein Bild von mir sein. Ich habe mich für ein Bild entschieden, das ich schon an einigen Stellen benutzt habe, aber immer noch ziemlich gut finde. Es kommt leider selten vor, dass ich Bilder von mir mag, da werden die wenigen dann leicht überbenutzt (Gibt es das Wort? Ich habe das englische “overused” im Kopf und das scheint mir dem zu entsprechen.).&lt;/p&gt;
+
+&lt;p&gt;Im Menu sollte man erkennen, auf welche Seite man gerade ist. Auch hier bin ich ein Freund von Einfachheit und denke, dass eine Unterstreichung ausreichend ist.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.active&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;underline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Die Klasse habe ich dann folgendermassen in die Navigationsliste in header.html eingetragen:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% if my_page.url == page.url %}
+class=&quot;active page-link&quot;
+{% else %}
+class=&quot;page-link&quot;
+{% endif %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Für’s erste bin ich damit zufrieden und werde jetzt nur noch die Startseite und die Seitenbeschreibung in der _config.yml verfassen, dann kann die Seite hochgeladen werden.&lt;/p&gt;
+
+&lt;p&gt;Auf der Kontaktseite werde ich vorerst nur die Kontaktmöglichkeiten angeben, die auch im Footer sind. Längerfristig überlege ich, ob ein Kontaktformular Sinn macht.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 05 Jun 2016 10:00:00 +0200</pubDate>
+        <link>http://knutjackowski.de/jekyll/2016/06/05/building-a-personal-website-part-i.html</link>
+        <guid isPermaLink="true">http://knutjackowski.de/jekyll/2016/06/05/building-a-personal-website-part-i.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>

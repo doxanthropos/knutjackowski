@@ -5,11 +5,11 @@ layout: default
 <div class="portrait">
 <img alt="Portrait" src="/images/pensiveintheforest.jpg" class="profile-image">
 </div>
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+## Was bin ich anderes als die Ansammlung meiner Fähigkeiten?
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %}.
+Ich habe Philosophie, Soziologie und Geschichte studiert,
+
+nun suche ich Möglichkeiten als Web Entwickler zu arbeiten und zu wachsen.
+
+Dazwischen habe ich einiges gelernt über Bildung, Technologie und die Vermittlung von technischen Kompetenzen.

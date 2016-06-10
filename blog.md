@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Artikel
-permalink: /articles/
+title: Blog
+permalink: /blog/
 ---
 
 <div class="home">
