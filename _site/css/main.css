@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fdfdfd;
+  color: #dddddd;
   background-color: #222;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -72,7 +72,7 @@ a {
   a:visited {
     color: #ffb31a; }
   a:hover {
-    color: #fdfdfd;
+    color: #dddddd;
     text-decoration: underline; }
 
 /**
@@ -171,7 +171,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #fdfdfd;
+    color: #dddddd;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }

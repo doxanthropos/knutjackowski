@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Eine persönliche Webseite mit Jekyll bauen. Teil I"
-date:   2016-06-05 10:00:00 +0200
+date:   2016-06-10 20:00:00 +0200
 categories: jekyll
 ---
 
