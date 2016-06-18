@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Exzerpte in der Artikelübersicht in Jekyll"
+date:   2016-06-19 00:15:00 +0200
+categories: jekyll
+excerpt: >
+  Wie man die Artikelübersicht mit Jekyll mit Hilfe von Exzerpten aussagekräftiger macht.
+---
+
+Das Standardaussehen der Artikelliste in einem mit Jekyll erstellten Blog enthält nur die Titel der Artikel und das Datum der Veröffentlichung. Um eine Idee davon zu haben, wovon ein Artikel handelt, ist das möglicherweise etwas wenig.
+
+Bei vielen Blogs ist es entweder umgekehrt, es wird also schon der gesamte Artikel in der Artikelliste angezeigt, oder aber es wird der Beginn des Artikels mit zusammen mit einem "Weiterlesen" Verweis ausgegeben.
+
+Es gibt in einem mit Hilfe von Jekyll erstellten Blog schon die Funktion von Exzerpten, die aus dem Anfang eines Artikels gewonnen werden und im Kopf der HTML-Datei als content-Informationen eingefügt werden. Dieses Exzerpt kann man problemlos auch an anderer Stelle nutzen, z.B. wie hier gewünscht, in der Artikelübersicht:
+
+{% highlight html %}
+{% raw %}
+
+{% for post in site.posts %}
+<li>
+<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+<h2>
+{% if post.external_url %}
+<a class="post-link" href="{{ post.external_url }}">&#8594; {{ post.title }}</a>
+{% else %}
+<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+{% endif %}
+</h2>
+{% if post.excerpt %}
+<p class="post-excerpt">
+{{ post.excerpt }}
+</p>
+{% endif %}
+</li>
+{% endfor %}
+
+{% endraw %}
+{% endhighlight %}
+
+Ein solches Exzerpt ist jedoch nicht immer das was ich möchte, denn die ersten Sätze eines Artikels müssen ja nicht immer eine hilfreiche Beschreibung dessen enthalten, was in dem Artikel behandelt wird.
+
+Eine einfache Möglichkeit, dieses automatisch generierte Exzerpt durch einen absichtsvoll erstellten Text zu ersetzen bietet, der YAML-Kopf eines Artikels:
+
+{% highlight yaml %}
+---
+layout: post
+title:  "Exzerpte in der Artikelübersicht in Jekyll"
+date:   2016-06-19 00:15:00 +0200
+categories: jekyll
+excerpt: >
+  Wie man die Artikelübersicht mit Jekyll mit Hilfe von Exzerpten aussagekräftiger macht.
+---
+{% endhighlight %}
+
+Der Inhalt dieser so gesetzten Variable ersetzt dann das automatisch generierte Exzerpt sowohl in der Artikelübersicht als auch im Kopf der HTML-Datei des einzelnen Artikels.

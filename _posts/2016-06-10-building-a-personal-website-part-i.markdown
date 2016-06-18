@@ -3,6 +3,8 @@ layout: post
 title:  "Eine persönliche Webseite mit Jekyll bauen. Teil I"
 date:   2016-06-10 20:00:00 +0200
 categories: jekyll
+excerpt: >
+  Warum ich meine Webseite mit Jekyll erstelle, die ersten Schritte und Designentscheidungen.
 ---
 
 Nachdem ich an dieser Stelle eine Weile das Ergebnis einer Aufgabe aus dem Curriculum von [FreeCodeCamp]() online hatte, habe ich nach einigen Überlegungen in den letzten Tagen eine Entscheidung getroffen, was ich auf längere Sicht unter dieser URL präsentieren möchte:
