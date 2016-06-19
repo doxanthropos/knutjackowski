@@ -246,24 +246,37 @@
  * Profile Page
  */
 
-.portrait {
-    width: 30%;
+
+#intro-portrait {
+    width: 25%;
     float: left;
-    margin-right: 50px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .profile-image {
-    border-radius: 10%;
+    
 }
 
-#impressum {
-    text-align: center;
+#intro-text {
+    margin-left: 30%;
 }
+
 
 .small-image-right {
     width: 30%;
     float: right;
     margin-left: 50px;
+}
+
+/*
+ * static elements
+ */
+
+#impressum {
+    text-align: center;
 }
 
 /*

@@ -1,10 +1,6 @@
 ---
-layout: default
+layout: intro
 ---
-
-<div class="portrait">
-<img alt="Portrait" src="/images/pensiveintheforest.jpg" class="profile-image">
-</div>
 
 ## Was bin ich anderes als die Ansammlung meiner Fähigkeiten?
 

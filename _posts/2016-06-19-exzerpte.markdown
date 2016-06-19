@@ -9,7 +9,7 @@ excerpt: >
 
 Das Standardaussehen der Artikelliste in einem mit Jekyll erstellten Blog enthält nur die Titel der Artikel und das Datum der Veröffentlichung. Um eine Idee davon zu haben, wovon ein Artikel handelt, ist das möglicherweise etwas wenig.
 
-Bei vielen Blogs ist es entweder umgekehrt, es wird also schon der gesamte Artikel in der Artikelliste angezeigt, oder aber es wird der Beginn des Artikels mit zusammen mit einem "Weiterlesen" Verweis ausgegeben.
+Bei vielen Blogs ist es entweder umgekehrt, es wird also schon der gesamte Artikel in der Artikelliste angezeigt oder aber es wird der Beginn des Artikels zusammen mit einem "Weiterlesen" Verweis ausgegeben.
 
 Es gibt in einem mit Hilfe von Jekyll erstellten Blog schon die Funktion von Exzerpten, die aus dem Anfang eines Artikels gewonnen werden und im Kopf der HTML-Datei als content-Informationen eingefügt werden. Dieses Exzerpt kann man problemlos auch an anderer Stelle nutzen, z.B. wie hier gewünscht, in der Artikelübersicht:
 
