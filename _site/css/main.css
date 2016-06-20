@@ -320,16 +320,44 @@ pre {
 /*
  * Profile Page
  */
-#intro-portrait {
+#portrait-column {
   width: 25%;
   float: left;
   margin-right: 5%;
-  margin-bottom: 50px;
+  margin-bottom: 50px; }
+  @media screen and (max-width: 600px) {
+    #portrait-column {
+      float: none;
+      width: 100%;
+      margin-bottom: 0px; } }
+
+#intro-portrait {
   border-style: solid;
   border-width: 1px; }
+  @media screen and (max-width: 600px) {
+    #intro-portrait {
+      width: 60%;
+      margin: auto; } }
+
+.iconline {
+  text-align: center;
+  margin: 5px; }
+
+.iconline > a:hover {
+  text-decoration: none; }
+
+.iconline > a > span > svg {
+  width: 30px;
+  height: auto; }
+  @media screen and (max-width: 600px) {
+    .iconline > a > span > svg {
+      width: 36px; } }
 
 #intro-text {
   margin-left: 30%; }
+  @media screen and (max-width: 600px) {
+    #intro-text {
+      margin-left: 0%; } }
 
 .small-image-right {
   width: 30%;

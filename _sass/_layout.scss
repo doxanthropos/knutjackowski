@@ -247,21 +247,55 @@
  */
 
 
-#intro-portrait {
+#portrait-column {
     width: 25%;
     float: left;
     margin-right: 5%;
     margin-bottom: 50px;
+    @include media-query($on-palm) {
+	float: none;
+	width: 100%;
+	margin-bottom: 0px;
+    }
+
+}
+
+#intro-portrait {
+
     border-style: solid;
     border-width: 1px;
+    @include media-query($on-palm) {
+	width: 60%;
+	margin: auto;
+    }
 }
 
 .profile-image {
     
 }
 
+.iconline {
+    text-align: center;
+    margin: 5px;
+}
+
+.iconline > a:hover {
+    text-decoration: none;
+}
+
+.iconline > a > span > svg {
+    width: 30px;
+    height: auto;
+    @include media-query($on-palm) {
+	width: 36px;
+    }
+}
+
 #intro-text {
     margin-left: 30%;
+    @include media-query($on-palm) {
+	margin-left: 0%;
+    }
 }
 
 

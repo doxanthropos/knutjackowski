@@ -5,12 +5,11 @@ permalink: kontakt/
 ---
 
 <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
+{% if site.github_username %}
+<li>
+{% include icon-github.html username=site.github_username %}
+</li>
+{% endif %}
 {% if site.twitter_username %}
 <li>
 {% include icon-twitter.html username=site.twitter_username %}
@@ -19,6 +18,11 @@ permalink: kontakt/
 {% if site.linkedin_username %}
 <li>
 {% include icon-linkedin.html username=site.linkedin_username %}
+</li>
+{% endif %}
+{% if site.codepen_username %}
+<li>
+{% include icon-codepen.html username=site.codepen_username %}
 </li>
 {% endif %}
 </ul>

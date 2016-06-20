@@ -9,8 +9,11 @@
 
     <div class="page-content">
       <div class="wrapper">
+	<div id="portrait-column">
 	<div id="intro-portrait">
 	  <img alt="Portrait" src="{{ site.profile_picture }}" class="profile-image">
+	  </div>
+	  {% include socialicons.html %}
 	</div>
 	<div style="display: block;" id="intro-text">
           {{ content }}
