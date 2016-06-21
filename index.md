@@ -2,12 +2,10 @@
 layout: intro
 ---
 
-## Was bin ich anderes als die Ansammlung meiner Fähigkeiten?
+## Was bin ich anderes als die Ansammlung meiner Fragen?
 
-Ich habe Philosophie, Soziologie und Geschichte studiert,
+Ich habe Philosophie (und auch Soziologie und Geschichte) studiert, ein Fach, in dem sich Alles um die Frage nach sinnvollen Abstraktionen dreht: Was heißt Sein? Was ist Gerechtigkeit? Was ist Sinn?
 
-nun suche ich Möglichkeiten als Web Entwickler zu arbeiten und zu wachsen.
+Es hat einiger Zufälle bedurft, damit ich merkte, dass die Informatik und die Programmierung mit ganz ähnlichen Fragestellungen hantiert, aber im Unterschied zur Philosophie in kreativer und pragmatischer Weise.
 
-Dazwischen habe ich einiges gelernt über Bildung, Technologie und die Vermittlung von technischen Kompetenzen.
-
-Ich habe Freude am Lernen neuer Technologien, am Vertiefen der Kenntnisse, die ich schon habe und am Austausch darüber.
+Hier versuche ich zu sammeln, was mir auf dem Weg zwischen antiken Denkern und modernen Programmiersprachen begegnet, was mir gelingt und was misslingt. Den Sinn finde ich irgendwo dazwischen.
