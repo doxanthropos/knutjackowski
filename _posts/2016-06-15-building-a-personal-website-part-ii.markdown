@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Eine persönliche Webseite mit Jekyll bauen. Teil II."
-date:   2016-06-30 20:00:00 +0200
+date:   2017-06-30 20:00:00 +0200
 categories: accessability w3c
 excerpt: > # this means to ignore newlines until "baseurl:"
   Erste Schritte in Web Accessability, zusätzliche Funktionen in den Artikeln

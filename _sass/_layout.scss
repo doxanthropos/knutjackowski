@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $green-color-dark;
-    border-bottom: 1px solid $grey-color;
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -12,7 +12,6 @@
 
 .site-title {
     font-size: 26px;
-    font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -20,8 +19,7 @@
 
     &,
     &:visited {
-	color: $green-color-light;
-        /* color: $grey-color-dark; */
+        color: $grey-color-dark;
     }
 }
 
@@ -37,16 +35,16 @@
         color: $text-color;
         line-height: $base-line-height;
 
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
         }
     }
 
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        right: $spacing-unit / 2;
+        right: 30px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -84,11 +82,6 @@
         .page-link {
             display: block;
             padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
         }
     }
 }
@@ -99,7 +92,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color;
+    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -245,78 +238,58 @@
 /*
  * Profile Page
  */
-
-
 #portrait-column {
-    width: 25%;
-    float: left;
-    margin-right: 5%;
-    margin-bottom: 50px;
-    @include media-query($on-palm) {
-	float: none;
-	width: 100%;
-	margin-bottom: 0px;
-    }
-
-}
+  width: 25%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 50px; }
+  @media screen and (max-width: 600px) {
+    #portrait-column {
+      float: none;
+      width: 100%;
+      margin-bottom: 0px; } }
 
 #intro-portrait {
-
-    border-style: solid;
-    border-width: 1px;
-    @include media-query($on-palm) {
-	width: 60%;
-	margin: auto;
-    }
-}
-
-.profile-image {
-    
-}
+  border-style: solid;
+  border-width: 1px; }
+  @media screen and (max-width: 600px) {
+    #intro-portrait {
+      width: 60%;
+      margin: auto; } }
 
 .iconline {
-    text-align: center;
-    margin: 5px;
-}
+  text-align: center;
+  margin: 5px; }
 
 .iconline > a:hover {
-    text-decoration: none;
-}
+  text-decoration: none; }
 
 .iconline > a > span > svg {
-    width: 30px;
-    height: auto;
-    @include media-query($on-palm) {
-	width: 36px;
-    }
-}
+  width: 30px;
+  height: auto; }
+  @media screen and (max-width: 600px) {
+    .iconline > a > span > svg {
+      width: 36px; } }
 
 #intro-text {
-    margin-left: 30%;
-    @include media-query($on-palm) {
-	margin-left: 0%;
-    }
-}
-
+  margin-left: 30%; }
+  @media screen and (max-width: 600px) {
+    #intro-text {
+      margin-left: 0%; } }
 
 .small-image-right {
-    width: 30%;
-    float: right;
-    margin-left: 50px;
-}
+  width: 30%;
+  float: right;
+  margin-left: 50px; }
 
 /*
  * static elements
  */
-
 #impressum {
-    text-align: center;
-}
+  text-align: center; }
 
 /*
  * Styling the menu
  */
-
 .active {
-    text-decoration: underline;
-}
+  text-decoration: underline; }
