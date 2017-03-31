@@ -6,40 +6,9 @@
 </description>
     <link>http://knutjackowski.de/</link>
     <atom:link href="http://knutjackowski.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Feb 2017 17:57:29 +0100</pubDate>
-    <lastBuildDate>Sat, 18 Feb 2017 17:57:29 +0100</lastBuildDate>
+    <pubDate>Fri, 31 Mar 2017 17:45:43 +0200</pubDate>
+    <lastBuildDate>Fri, 31 Mar 2017 17:45:43 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Eine persönliche Webseite mit Jekyll bauen. Teil II.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.w3.org/WAI/eval/preliminary&quot;&gt;Easy Checks&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;accessability&quot;&gt;Accessability&lt;/h2&gt;
-
-&lt;h3 id=&quot;seitentitel&quot;&gt;Seitentitel&lt;/h3&gt;
-
-&lt;p&gt;Die Titel der Seiten sollen klar erkennbar machen, um welche Seite es in dem jeweiligen Tab des Browsers geht. Daher sollen sie untereinander klar abgegrenzt sein und die Funktion der jeweiligen Seite hervorheben, aber es soll auch direkt klar sein, auf welcher Website man sich überhaupt befindet. Daher habe ich den Titel der gesamten Webseite mit in die Titel der Einzelseiten übernommen z.B. “Knut Jackowski - Blog”.&lt;/p&gt;
-
-&lt;h2 id=&quot;seite&quot;&gt;404 Seite&lt;/h2&gt;
-
-&lt;p&gt;http://yizeng.me/2013/05/26/create-a-custom-jekyll-404-page/&lt;/p&gt;
-
-&lt;p&gt;http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/&lt;/p&gt;
-
-&lt;h2 id=&quot;responsive-introseite&quot;&gt;Responsive Introseite&lt;/h2&gt;
-
-&lt;h2 id=&quot;iconliste&quot;&gt;Iconliste&lt;/h2&gt;
-</description>
-        <pubDate>Fri, 30 Jun 2017 20:00:00 +0200</pubDate>
-        <link>http://knutjackowski.de/accessability/w3c/2017/06/30/building-a-personal-website-part-ii.html</link>
-        <guid isPermaLink="true">http://knutjackowski.de/accessability/w3c/2017/06/30/building-a-personal-website-part-ii.html</guid>
-        
-        
-        <category>accessability</category>
-        
-        <category>w3c</category>
-        
-      </item>
     
       <item>
         <title>Externe Inhalte als Link posten</title>

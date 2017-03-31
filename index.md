@@ -1,11 +1,27 @@
 ---
-layout: intro
+layout: page
+permalink: /
 ---
 
-## Was bin ich anderes als die Ansammlung meiner Fragen?
-
-Ich habe Philosophie (und auch Soziologie und Geschichte) studiert, ein Fach, in dem sich Alles um die Frage nach sinnvollen Abstraktionen dreht: Was heißt Sein? Was ist Gerechtigkeit? Was ist Sinn?
-
-Es hat einiger Zufälle bedurft, damit ich merkte, dass die Informatik und die Programmierung mit ganz ähnlichen Fragestellungen hantiert, aber im Unterschied zur Philosophie in kreativer und pragmatischer Weise.
-
-Hier versuche ich zu sammeln, was mir auf dem Weg zwischen antiken Denkern und modernen Programmiersprachen begegnet, was mir gelingt und was misslingt. Den Sinn finde ich irgendwo dazwischen.
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+<h2>
+    {% if post.external_url %}
+      <a class="post-link" href="{{ post.external_url }}">&#8594; {{ post.title }}</a>
+    {% else %}
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    {% endif %}
+</h2>
+	{% if post.excerpt %}
+	<p class="post-excerpt">
+		{{ post.excerpt }}
+	</p>
+	{% endif %}
+</li>
+{% endfor %}
+</ul>
+  <p class="rss-subscribe">Abonniere <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
