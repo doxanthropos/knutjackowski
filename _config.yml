@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Sind persönliche Webseiten in den Zeiten von Twitter, Facebook und LinkedIn überflüssig geworden?
   Ich denke nicht, daher gibt es diese hier. Das ist meine. Wenn Du auch eine haben möchtest und nicht weißt wie, melde Dich einfach. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://knutjackowski.de" # the base hostname & protocol for your site
+url: "https://knutjackowski.de" # the base hostname & protocol for your site
 
 # Social names
 twitter_username: doxanthropos
