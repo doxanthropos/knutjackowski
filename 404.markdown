@@ -1,7 +1,0 @@
----
-layout: default
----
-
-## Inhalt nicht gefunden
-
-Leider ist hier nichts zu finden.
